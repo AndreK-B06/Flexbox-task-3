@@ -1,29 +1,36 @@
 body {
-  display: flexbox;
   background-color: white;
 }
 
 img {
-  max-width: 100%;
-  max-height: 300px;
+  width: 300px;
+  height: 300px;
 }
 
-.flex-colum {
-  display: flex;
+main {
+  width: 70%;
   justify-content: center;
+  margin: 10px auto;
+}
+
+.flex-box {
+  display: flex;
   flex-wrap: wrap;
-  margin: 20px;
+  justify-content: center;
+}
+
+.comtaner {
+  border: none;
+  width: 300px;
+  margin: 10px auto;
+  box-shadow: 0px 0px 10px lightgray;
   text-align: center;
 }
 
-.hero {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  border: none;
-  max-width: 300px;
-  margin: 10px;
-  box-shadow: 0px 0px 10px lightgray;
+button,
+h2,
+p {
+  padding: 10px;
 }
 
 button {
@@ -34,4 +41,9 @@ button {
   color: white;
   margin: auto;
   margin-bottom: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
