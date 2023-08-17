@@ -25,6 +25,7 @@ main {
   margin: 10px auto;
   box-shadow: 0px 0px 10px lightgray;
   text-align: center;
+  background-color: antiquewhite;
 }
 
 button,
@@ -38,7 +39,6 @@ button {
   border-radius: 1px;
   padding: 10px 40px;
   background-color: gray;
-  color: white;
   margin: auto;
   margin-bottom: 20px;
 }
